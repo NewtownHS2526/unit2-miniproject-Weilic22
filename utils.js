@@ -1,8 +1,7 @@
 
 // This function generates a random number from 1 -100
-const getRandomInt = () => (
-  Math.floor(Math.random() * 100) + 1
-)
+//COPIED
+
 
 
 // This function takes in a hex string and returns true if its a "dark" color and false if its not.

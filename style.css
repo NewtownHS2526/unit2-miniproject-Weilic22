@@ -73,3 +73,6 @@ label {
   display: inline;
   color: red;
 }
+
+#text-output img { opacity: 0;
+}

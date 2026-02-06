@@ -64,3 +64,18 @@ textInput.addEventListener("change", function() {
         alertBox.textContent = "Not a continent. Try again."
     }
 })
+
+
+const forme = document.getElementById("back_color")
+const checkbox = document.getElementById("human")
+const warning = document.getElementById("red")
+
+forme.addEventListener("submit", function(event) {
+    if (!checkbox.checked) {
+        event.preventDefault()
+        warning.textContent = "Please confirm you're human first!"
+        warning.style.color = "red"
+    } else {
+        warning.textContent = ""
+    }
+})
